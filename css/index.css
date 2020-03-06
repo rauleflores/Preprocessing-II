@@ -168,6 +168,31 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navBar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1% auto;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.navBar .content-Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.navBar .content-Navigation .links {
+  width: 49%;
+  font-size: 1.6rem;
+  align-items: flex-end;
+}
+.navBar .content-Navigation .links a {
+  padding: 0 4%;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -181,13 +206,10 @@ img {
 }
 .home header {
   width: 100%;
-}
-.home header .navBar {
-  height: 100%;
   border-bottom: 2px dashed #C0C0C0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+.home header .content-head .text {
+  margin: 2% auto 1% auto;
 }
 .home .content-section {
   margin: 30px 0;

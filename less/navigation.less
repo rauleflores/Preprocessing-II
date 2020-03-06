@@ -1,1 +1,23 @@
-// Navigation Styles here
+.navBar{
+    width: 100%;
+    margin:0 auto;
+    padding: 1% auto;
+    border-bottom: 2px dashed @navigation-border;    
+    .content-Navigation{
+        .flex-spacing(space-between, center);
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        .links{
+        width: 49%;
+        font-size: 1.6rem;
+        align-items: flex-end;
+        a{
+            padding: 0 4%;
+            text-decoration: none;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+        }
+        }
+    }
+}
