@@ -9,19 +9,31 @@
         margin: 1.2% auto;
         max-width: 800px;
         width: 100%;
-        //margin: 1% auto;        
+        @media @mobile {
+            .mobile-flexDirection(column, space-around);  
+            height: 10vh;         
+        }       
         .links{
         width: 40%;
         font-size: 1.6rem;
         align-items: flex-end;
+        @media @mobile{
+            width: 100%;
+        }
         nav{
             width: 100%;
             margin-right: 5%;
+            @media @mobile {
+                .center();                
+            }
             a{
                 padding: 0 4%;
                 text-decoration: none;
                 color: black;
                 font-family: 'Roboto', sans-serif;
+                @media @mobile {
+                    width: 24%;
+                }
             }
         }
         }

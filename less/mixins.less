@@ -3,3 +3,23 @@
     justify-content: @j;
     align-items: @a;
 }
+.center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button(@b, @txt-color, @txt-size){
+    .center();
+    width: 83%;
+    height: 45px;
+    border-radius: 15px;
+    background-color: @b;
+    color: @txt-color;
+    font-size: @txt-size;
+}
+.mobile-flexDirection(@dir, @j){
+    display: flex;
+    flex-direction: @dir;
+    justify-content: @j;
+    align-items: center;
+}
