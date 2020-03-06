@@ -170,24 +170,30 @@ img {
 }
 .navBar {
   width: 100%;
-  margin: 0 auto;
   padding: 1% auto;
   border-bottom: 2px dashed #C0C0C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navBar .content-Navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 1.2% auto;
   max-width: 800px;
   width: 100%;
-  margin: 0 auto;
 }
 .navBar .content-Navigation .links {
-  width: 49%;
+  width: 40%;
   font-size: 1.6rem;
   align-items: flex-end;
 }
-.navBar .content-Navigation .links a {
+.navBar .content-Navigation .links nav {
+  width: 100%;
+  margin-right: 5%;
+}
+.navBar .content-Navigation .links nav a {
   padding: 0 4%;
   text-decoration: none;
   color: black;
